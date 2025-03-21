@@ -78,7 +78,6 @@ namespace FinBeat_Tech_Test.Services
             try
             {
                 using var connection = new NpgsqlConnection(_connectionString);
-                //var sortedValues = values.Values.OrderBy(x => x.Code);  
                 
                 await ClearValuesAsync();
 

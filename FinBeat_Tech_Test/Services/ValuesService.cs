@@ -97,7 +97,6 @@ namespace FinBeat_Tech_Test.Services
                 _logger.LogError($"Error during srting values {ex.Message}");
                 throw;
             }
-            
         }
     }
 }

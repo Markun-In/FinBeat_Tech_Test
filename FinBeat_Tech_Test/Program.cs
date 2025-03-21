@@ -28,7 +28,7 @@ try
             options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
         });
 
-    CondigurationServices.SetDIConfiguration(builder.Services); // конфиг DI
+    ConfigurationServices.SetDIConfiguration(builder.Services); // конфиг DI
 
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen(swager =>

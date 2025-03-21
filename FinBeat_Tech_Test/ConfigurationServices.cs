@@ -2,7 +2,7 @@
 
 namespace FinBeat_Tech_Test
 {
-    public class CondigurationServices
+    public class ConfigurationServices
     {
         public static void SetDIConfiguration(IServiceCollection service)
         {

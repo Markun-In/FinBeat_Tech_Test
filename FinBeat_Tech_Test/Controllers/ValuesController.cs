@@ -38,8 +38,6 @@ namespace FinBeat_Tech_Test.Controllers
                     return BadRequest("Invalid data");
                 }
 
-                //string requestBody = JsonConvert.SerializeObject(values, Formatting.Indented);
-
                 await _valueService.SetNewValuesForSaveAsync(values);
 
                 _logger.LogInformation("Values is saved");
