@@ -1,0 +1,17 @@
+* Таблица logs *
+
+CREATE TABLE logs (
+    timestamp TIMESTAMP WITHOUT TIME ZONE,
+    level VARCHAR(10),
+    logger VARCHAR(255),
+    message TEXT,
+    exception TEXT
+);
+
+* Таблица values_table *
+
+CREATE TABLE values (
+    id SERIAL PRIMARY KEY,  
+    code INT NOT NULL,      
+    value TEXT NOT NULL    
+);
